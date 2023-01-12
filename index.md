@@ -5,9 +5,10 @@ Simple map, here you can monitor the accidents and send the drone to the locatio
 
 Update every 30 Sec.  [Made by Abdullah ❤️]
  
-| ID     | Plate  | nationality | location |
-| ---      | ---       | --- | --- |
-| 100 | 1 7 6 6 T B V        | SA | 18.2213149,42.5041484 |
-| 101 | 2 3 4 5 Z T Y        | AE | 18.201921, 42.494973 |
-| 102 | 1 7 6 6 H K R        | KT | 18.284920, 42.476302 |
+| ID     | Plate  | nationality | location | time |
+| ---      | ---       | --- | --- | --- | 
+| 100 | 1 7 6 6 T B V        | SA | 18.2213149,42.5041484 | 10:34 PM |
+| 101 | 2 3 4 5 Z T Y        | AE | 18.201921, 42.494973 | 06:44 PM |
+| 102 | 1 4 8 6 H K R        | KT | 18.284920, 42.476302 | 08:22 AM | 
+| 103 | 1 9 9 9 H K R        | SA | 18.244320, 42.446202 | 08:22 AM | 
 
