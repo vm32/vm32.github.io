@@ -5,3 +5,7 @@ Simple map, here you can monitor the accidents and send the drone to the locatio
 
 Update every 30 Sec.  [Made by Abdullah ❤️]
  
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
