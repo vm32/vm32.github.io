@@ -12,3 +12,4 @@ Update every 30 Sec.  [Made by Abdullah ❤️]
 | 102 | 1486 OOR     | KW - 🇰🇼| 18.284920, 42.476302 | 08:22 AM | Scanned | 22.00 C |
 | 103 | 1999 RKR     | SA - 🇸🇦| 18.244320, 42.446202 | 08:22 AM | Scanning | 21.00 C |
 
+This site was built using GPS requistes from [ GPS page ](https://gpstest.edafait.com/).
