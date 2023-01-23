@@ -14,7 +14,11 @@
           map: map,
           title: 'Accident Location'
         });
-        var carInfo = '<div>Car Plate: ABC 123</div><div>Car Color: Red</div>';
+        var carInfo = '<div>Car Plate: ABC 123</div><div>Car Color: Red</div><table>'
+          +'<tr><td>Car Model:</td><td>Honda Civic</td></tr>'
+          +'<tr><td>Car Type:</td><td>Sedan</td></tr>'
+          +'<tr><td>Driver Phone:</td><td>555-555-5555</td></tr>'
+          +'</table>';
         var infowindow = new google.maps.InfoWindow({
           content: carInfo
         });
