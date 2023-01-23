@@ -1,34 +1,55 @@
 <html>
   <head>
-    <title>Car Accident Map</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
-    <script>
-      function initMap() {
-        var accidentLocation = {lat: 37.7749, lng: -122.4194};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 12,
-          center: accidentLocation
-        });
-        var marker = new google.maps.Marker({
-          position: accidentLocation,
-          map: map,
-          title: 'Accident Location'
-        });
-        var carInfo = '<div>Car Plate: ABC 123</div><div>Car Color: Red</div><table>'
-          +'<tr><td>Car Model:</td><td>Honda Civic</td></tr>'
-          +'<tr><td>Car Type:</td><td>Sedan</td></tr>'
-          +'<tr><td>Driver Phone:</td><td>555-555-5555</td></tr>'
-          +'</table>';
-        var infowindow = new google.maps.InfoWindow({
-          content: carInfo
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      }
-    </script>
+    <title>Image and Information</title>
+    <style>
+        img {
+            max-width: 50%;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #dddddd;
+        }
+    </style>
   </head>
-  <body onload="initMap()">
-    <div id="map" style="height: 500px; width: 100%;"></div>
+  <body>
+    <img src="path/to/image.jpg" alt="Image">
+    <table>
+        <tr>
+            <th>Information</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Color:</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>Sedan</td>
+        </tr>
+        <tr>
+            <td>Model:</td>
+            <td>Honda Civic</td>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td>01/01/2021</td>
+        </tr>
+        <tr>
+            <td>ID Number:</td>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td>555-555-5555</td>
+        </tr>
+    </table>
   </body>
 </html>
