@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Car Accident Map</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+    <script>
+      function initMap() {
+        var accidentLocation = {lat: 37.7749, lng: -122.4194};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: accidentLocation
+        });
+        var marker = new google.maps.Marker({
+          position: accidentLocation,
+          map: map,
+          title: 'Accident Location'
+        });
+        var carInfo = '<div>Car Plate: ABC 123</div><div>Car Color: Red</div>';
+        var infowindow = new google.maps.InfoWindow({
+          content: carInfo
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+    <div id="map" style="height: 500px; width: 100%;"></div>
+  </body>
+</html>
