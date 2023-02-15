@@ -8,6 +8,7 @@ Update every 30 Sec.  [Made by Abdullah ❤️]
 | ID     | Plate Info  | Nationality | Location | Time | State | 
 | ----      | ----       | ---- | ---- | ---- | ---- |
 | [101](/about.html) | ABC 123     | SA - 🇸🇦| 18.250250, 42.558861 | 10:24 AM | Scanned | 
+| 102 | ABC 123     | SA - 🇸🇦| 18.250332, 42.558981 | 01:20 PM | Scanning | 
 
 This site was built using GPS requistes from [ GPS page ](/back.html).
 
