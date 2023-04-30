@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flair of Machine Learning</title>
+    <description>A virtual proof that name is awesome!</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Numba series part 2: Custom data types and parallelization</title>
+        <description>
+          
+          This is the second part of my little series about the Numba library. This time we will take a look on how we can use custom data types inside of functions we like to get optimized by Numba. Out-of-the-box Numba can handle scalars and n-dimensional Numpy arrays as input. Tuples...
+        </description>
+        <pubDate>Mon, 25 Sep 2017 15:04:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/09/25/numba-series-part-2-custom-data-types-and-parallelization.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/25/numba-series-part-2-custom-data-types-and-parallelization.html</guid>
+      </item>
+    
+      <item>
+        <title>Numba series part 1: The @jit decorator and some more Numba basics</title>
+        <description>
+          
+          In the first part of the little Numba series I’ve planned we will focus mainly on the @jit decorator. Their exist different decorators in the Numba library and we will talk about them later, but for the start we will concentrate on the @jit one. On our way we will...
+        </description>
+        <pubDate>Thu, 21 Sep 2017 21:41:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/09/21/numba-series-part-1-the-jit-decorator-and-some-more-numba-basics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/21/numba-series-part-1-the-jit-decorator-and-some-more-numba-basics.html</guid>
+      </item>
+    
+      <item>
+        <title>Introduction to the Numba library</title>
+        <description>
+          
+          Recently I found myself watching through some of the videos from the SciPy 2017 Conference, when I stumbled over the tutorial Numba - Tell Those C++ Bullies to Get Lost by Gil Forsyth and Lorena Barba. Although I have to say I find the title a bit pathetic, I really...
+        </description>
+        <pubDate>Tue, 12 Sep 2017 10:48:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/09/12/introduction-to-the-numba-library.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/12/introduction-to-the-numba-library.html</guid>
+      </item>
+    
+      <item>
+        <title>Speeding up TensorFlows Input Pipeline</title>
+        <description>
+          
+          When I wrote the last article about the new Dataset API TensorFlow got with the release of version 1.2, it was still only a release candidate and the documentation was pretty bad. There was a good discussion about the new input pipeline on GitHub and in the last comment Derek...
+        </description>
+        <pubDate>Mon, 11 Sep 2017 10:42:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/09/11/speeding-up-tensorflows-input-pipeline.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/11/speeding-up-tensorflows-input-pipeline.html</guid>
+      </item>
+    
+      <item>
+        <title>Example of TensorFlows new Input Pipeline</title>
+        <description>
+          
+          Update 11.09.2017 I wrote a new article about a small code change that let's the whole input pipeline run in parallel. So have a look here. Anyway in this article I explain the basic concept of the new Dataset API, so it's still worth reading. During the time I wrote...
+        </description>
+        <pubDate>Thu, 15 Jun 2017 10:56:00 +0200</pubDate>
+        <link>http://localhost:4000/2017/06/15/example-of-tensorflows-new-input-pipeline.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/15/example-of-tensorflows-new-input-pipeline.html</guid>
+      </item>
+    
+      <item>
+        <title>Finetuning AlexNet with TensorFlow</title>
+        <description>
+          
+          Update 15.05.2017 I updated the code of the repository to work with TensorFlows new input pipeline. Read my other blogpost for an explanation of this new feature coming with TensorFlows version &amp;gt;= 1.12rc0. The links below in this article are still pointing to the code explained here in this article....
+        </description>
+        <pubDate>Fri, 24 Feb 2017 10:11:00 +0100</pubDate>
+        <link>http://localhost:4000/2017/02/24/finetuning-alexnet-with-tensorflow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/24/finetuning-alexnet-with-tensorflow.html</guid>
+      </item>
+    
+      <item>
+        <title>Understanding the backward pass through Batch Normalization Layer</title>
+        <description>
+          
+          At the moment there is a wonderful course running at Standford University, called CS231n - Convolutional Neural Networks for Visual Recognition, held by Andrej Karpathy, Justin Johnson and Fei-Fei Li. Fortunately all the course material is provided for free and all the lectures are recorded and uploaded on Youtube. This...
+        </description>
+        <pubDate>Fri, 12 Feb 2016 13:54:00 +0100</pubDate>
+        <link>http://localhost:4000/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html</guid>
+      </item>
+    
+  </channel>
+</rss>
