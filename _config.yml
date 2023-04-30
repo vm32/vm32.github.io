@@ -57,7 +57,7 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Frederik Kratzert
+  name: 
   email: "@gmail.com"
   github: vm32
   twitter: 
