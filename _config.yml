@@ -24,7 +24,6 @@ description: A virtual proof that name is awesome!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Open Learning: "openlearning"
   Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -57,21 +56,19 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: 
+  name: Abdullah
   email: "@gmail.com"
   github: vm32
   twitter: 
   linkedin: abdullahshehri1337
-  xing: yourname
-  stackoverflow: yourlink
 
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: true
+  rss: false
   facebook: false
-  email: true
-  twitter: true
+  email: false
+  twitter: false
   github: true
   linkedin: true
   xing: false
@@ -91,7 +88,7 @@ url-pretty: "vm32.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "vm32tblog"
+disqus: "vm32blog"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: ""
