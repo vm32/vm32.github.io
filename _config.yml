@@ -25,6 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Projects: "projects"
+  x86: "x86"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
