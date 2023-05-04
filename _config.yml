@@ -7,7 +7,6 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Projects: "projects"
-  x86: "x86"
 avatar: "/img/avatar.jpg"
 
 author:
