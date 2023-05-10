@@ -4,7 +4,7 @@ Cheat sheet for reversing malicious Windows
 executables via static and dynamic code analysis.
 
 |Overview of the Code Analysis Process|
-|------------------------------------------|
+|------------------------------------------------------------------------------------|
 |1. Examine static properties of the Windows
 executable for initial assessment and triage.|
 |2. Identify strings and API calls that highlight the
@@ -27,7 +27,7 @@ may vary) until analysis objectives are met.|
 
 
 |Common 32-Bit Registers and Uses|
-|------------------------------------------|
+|------------------------------------------------------------------------------------|
 |EAX  Addition, multiplication, function results|
 |ECX  Counter; used by LOOP and others|
 |EBP  Baseline/frame pointer for referencing
@@ -39,3 +39,5 @@ changes via PUSH, POP, and others|
 instruction; shellcode gets it via call/pop|
 |EFLAGS Contains flags that store outcomes of
 computations (e.g., Zero and Carry flags)|
+|FS    F segment register; FS:[0] points to SEH
+chain, FS:[0x30] points to the PEB.|
