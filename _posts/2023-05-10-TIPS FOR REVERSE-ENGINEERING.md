@@ -3,7 +3,7 @@
 Cheat sheet for reversing malicious Windows
 executables via static and dynamic code analysis.
 
-|Overview of the Code Analysis Process|
+| Overview of the Code Analysis Process |
 |------------------------------------------------------------------------------------|
 |1. Examine static properties of the Windows
 executable for initial assessment and triage.|
@@ -26,7 +26,7 @@ depends upon the code you’ve already analyzed.|
 may vary) until analysis objectives are met.|
 
 
-|Common 32-Bit Registers and Uses|
+| Common 32-Bit Registers and Uses |
 |------------------------------------------------------------------------------------|
 |EAX  Addition, multiplication, function results|
 |ECX  Counter; used by LOOP and others|
