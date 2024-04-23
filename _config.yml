@@ -11,7 +11,7 @@ avatar: "/img/avatar.jpg"
 
 author:
   name: Abdullah
-  email: "@gmail.com"
+  email: "abdullah@linux.com"
   github: vm32
   twitter: 
   linkedin: abdullah1337
@@ -19,7 +19,7 @@ author:
 footer-links-active:
   rss: false
   facebook: false
-  email: false
+  email: true
   twitter: false
   github: true
   linkedin: true
