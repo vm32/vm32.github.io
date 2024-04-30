@@ -1,4 +1,4 @@
-## IOT Hardware Hacking in Cybersecurity
+## Hardware Hacking in Cybersecurity
 
 Whenever we look at any embedded device in a Target Network, there are various ways in which it can be attacked. One of the most useful ways to attack it is using hardware based exploitation techniques. These techniques are quite effective as most of the devices we encounter daily don’t usually have security protections build around the hardware aspect.
 
@@ -14,13 +14,14 @@ You will need to gain access to the hardware’s electronics. This is bit more i
 
 Finally using the following hardware tools you will identify debug ports and serial protocol interfaces, dump firmware, and reverse engineer the target device.
 
-These tools will allow you to explore your target device through the hardware’s various serial bus interfaces or allow you to dump the firmware image from the device for reverse engineering the software. The firmware image is a compressed file, containing the operating system and its files, it may contain interesting things like the code to the web interface that most of these devices have. You can then run that dumped code and reverse engineer it on an emulator like QEMU http://wiki.qemu.org/Main_Page
+These tools will allow you to explore your target device through the hardware’s various serial bus interfaces or allow you to dump the firmware image from the device for reverse engineering the software. The firmware image is a compressed file, containing the operating system and its files, it may contain interesting things like the code to the web interface that most of these devices have. You can then run that dumped code and reverse engineer it on an emulator like QEMU [QEMU](http://wiki.qemu.org/Main_Page)
+
 
 ![Sample PNG](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ymTZWIy6oRu74lBGBft0fg.png)
 
 Some of the main serial bus interfaces that the following hardware tools can connect to our
 
-JTAG http://concerts.livenation.com/
+JTAG [JTAG](http://concerts.livenation.com/)
 
     UART http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/
     I2C https://hackaday.com/tag/i2c-bus/
@@ -44,7 +45,7 @@ This device is touted as a more stable tool compared to the Bus Pirate. The hard
 
 If you want to pull the firmware image off a target IoT device for software exploitation then the Shikra is a great tool for the job. Just connect the Shikra to the target device’s SPI chip. You may need an 8-pin SOIC clip to connect the Shikra to the SPI interface.
 
-https://www.blackhillsinfosec.com/hardware-hacking-with-shikra/
+blackhillsinfosec [blackhillsinfosec](https://www.blackhillsinfosec.com/hardware-hacking-with-shikra/)
 
 In the how-to-use guide linked above, it was claimed to have taken the Bus Pirate 30 minutes to dump a 4MB firmware image of a device compared to just under a minute for the Shikra to do the same job. The Shikra may be something less people are familiar with, but it provides consistent, powerful and fast performance for certain jobs.
 # BUS PIRATE
@@ -64,9 +65,8 @@ Not every IoT device is going to have a USB port, but this tool can be very usef
 ![Sample PNG](https://cdn.sparkfun.com/assets/8/3/c/d/d/52f29d4dce395fe72c8b4569.jpg)
 An oscilloscope allows you to watch how the voltage between two points in a circuit varies over time. For example, if you were to probe a sinusoidal voltage, your oscilloscope might display something similar to Figure 2. The most popular modern oscilloscope is the digital storage oscilloscope (DSO).
 
-Note: This thing is not so cheap and it is not mandatory if you are not making your own piece of electronics.
-
-    SOME IMPORTANT TOOLS
+Note: This thing is not so cheap and it is not mandatory if you are not making your piece of electronics.
+SOME IMPORTANT TOOLS
 
     - A set of screwdriver
     - Probers and Jumper Wires
