@@ -58,7 +58,7 @@ An oscilloscope allows you to watch how the voltage between two points in a circ
 
 Note: This thing is not so cheap and it is not mandatory if you are not making your own piece of electronics.
 
-    🔵SOME IMPORTANT TOOLS
+    SOME IMPORTANT TOOLS
 
     - A set of screw driver
     - Probers and Jumper Wires
