@@ -5,7 +5,9 @@ Whenever we look at any embedded device in a Target Network, there are various w
 When we talk about hardware hacking — we have physical devices as attack surfaces, and we have embedded devices to test on, One may try to start Testing that piece of hardware by enumeration some useful information with the help of a few tools that will be listed below.
 
 By opening the casing of the device there’s a motherboard on which all the circuitry is present which can give us an how the device works like what IC the device is using. Once you get the name of the IC you can start looking for the DATA Sheet of that particular IC and understand how it’s working and move further by analyzing the device.
+
 ![Animated GIF](https://miro.medium.com/v2/resize:fit:640/format:webp/1*r1FgrQpFIfqtPSf7l-tqOg.gif)
+
 It is possible that you can get an easy shell on the device with a UART device as most of the devices reveal their RXD and TXD pins, it is possible that someone can get a shell via these pins through a Serial connection.
 
 You will need to gain access to the hardware’s electronics. This is bit more involved since a lot of devices are physically designed to make it difficult to access the embedded electronics. They have hard plastic shells and hidden screws that require uncommon bits to open.
