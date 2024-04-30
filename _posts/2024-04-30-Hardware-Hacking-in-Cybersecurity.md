@@ -15,7 +15,9 @@ You will need to gain access to the hardware’s electronics. This is bit more i
 Finally using the following hardware tools you will identify debug ports and serial protocol interfaces, dump firmware, and reverse engineer the target device.
 
 These tools will allow you to explore your target device through the hardware’s various serial bus interfaces or allow you to dump the firmware image from the device for reverse engineering the software. The firmware image is a compressed file, containing the operating system and its files, it may contain interesting things like the code to the web interface that most of these devices have. You can then run that dumped code and reverse engineer it on an emulator like QEMU http://wiki.qemu.org/Main_Page
+
 ![Sample PNG](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ymTZWIy6oRu74lBGBft0fg.png)
+
 Some of the main serial bus interfaces that the following hardware tools can connect to our
 
 JTAG http://concerts.livenation.com/
