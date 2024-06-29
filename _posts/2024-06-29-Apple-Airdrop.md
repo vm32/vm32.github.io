@@ -43,8 +43,10 @@ In response to these privacy concerns, device and OS manufacturers introduced MA
 ### Bluetooth Low Energy (BLE) Privacy
 
 Bluetooth also uses MAC addresses as hardware identifiers. In this study, I exclusively examined Bluetooth Low Energy (BLE), which includes mechanisms for a device to generate random MAC addresses to enhance privacy.
-<img width="493" alt="Screenshot 2024-06-29 at 5 36 47 PM" src="">
-<img width="258" alt="Screenshot 2024-06-29 at 5 39 21 PM" src="">
+<img width="493" alt="Screenshot 2024-06-29 at 5 36 47 PM" src="https://github.com/vm32/vm32.github.io/assets/21219411/66ffa351-34fd-4d59-a897-4f887634c23e">
+
+<img width="258" alt="Screenshot 2024-06-29 at 5 39 21 PM" src="https://github.com/vm32/vm32.github.io/assets/21219411/93bf5c00-f791-4259-9ad8-b772a44f585f">
+
 
 ## Analysis
 
